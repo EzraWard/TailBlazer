@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <UseWPF>true</UseWPF>
     <NoWarn>$(NoWarn);CS0618;CA1801;CA1063;CS8767;CS8602; CS8618;xUnit1013</NoWarn>
   </PropertyGroup>
