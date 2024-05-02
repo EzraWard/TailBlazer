@@ -14,7 +14,7 @@
     xmlns:tailBlazer="clr-namespace:TailBlazer"
     xmlns:windowManagement="clr-namespace:TailBlazer.Views.WindowManagement"
     x:Name="Window"
-    Title="Tail Blazer"
+    Title="Sawmill"
     Width="950"
     Height="650"
     d:DataContext="{d:DesignInstance windowManagement:WindowViewModel,
