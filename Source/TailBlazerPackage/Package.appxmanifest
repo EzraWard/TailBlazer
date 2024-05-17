@@ -7,12 +7,12 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="52e4bf52-fd11-4fb3-81ce-c9445a3ee85e"
+    Name="SawmillPackage"
     Publisher="CN=eward"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>TailBlazerPackage</DisplayName>
+    <DisplayName>Sawmill Beta</DisplayName>
     <PublisherDisplayName>eward</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
@@ -31,12 +31,12 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="TailBlazerPackage"
-        Description="TailBlazerPackage"
+        DisplayName="Sawmill Beta"
+        Description="A log viewer for Windows"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png"  ShortName="Sawmill" Square71x71Logo="Images\SmallTile.png" Square310x310Logo="Images\LargeTile.png"/>
         <uap:SplashScreen Image="Images\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
